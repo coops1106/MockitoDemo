@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    maven { url 'http://whyldeap49.group.net:6262/content/groups/lvrepo/' }
+}
+
+dependencies {
+    testCompile "org.mockito:mockito-all:1.9.0"
+    testCompile "junit:junit:4.11"
+}
+
+
+
